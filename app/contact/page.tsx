@@ -15,7 +15,7 @@ const socials = [
 		icon: <Mail size={20} />,
 		href: "mailto:hashbashsupport@protonmail.com",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "hashbashsupport@protonmail.com",
 	},
 	{
 		icon: <Github size={20} />,

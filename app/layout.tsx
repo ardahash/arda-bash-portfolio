@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "ardahurbas.com",
+    template: "%s | ardahurbas.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "My personal website and blog.",
   openGraph: {
-    title: "chronark.com",
+    title: "ardahurbas.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Collection of my tech stack credentials",
+    url: "/https://arda-bash-portfolio.vercel.app/",
+    siteName: "ardahurbas.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://arda-bash-portfolio.vercel.app/og.png",
         width: 1920,
         height: 1080,
       },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "ArdaHurbas",
     card: "summary_large_image",
   },
   icons: {

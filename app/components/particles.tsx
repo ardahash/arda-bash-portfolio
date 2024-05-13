@@ -186,7 +186,7 @@ export default function Particles({
 					circle.alpha = circle.targetAlpha;
 				}
 			} else {
-				circle.alpha = circle.targetAlpha * remapClosestEdge;
+				circle.alpha = Math.max(circle.targetAlpha * remapClosestEdge, 0.7);
 			}
 			circle.x += circle.dx;
 			circle.y += circle.dy;

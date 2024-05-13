@@ -30,3 +30,6 @@
   [data-rehype-pretty-code-title] + pre {
     @apply mt-0;
   }
+  body[data-theme="dark"] .cred {
+    filter: invert(95%) hue-rotate(180deg);
+}

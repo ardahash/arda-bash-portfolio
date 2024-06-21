@@ -7,20 +7,20 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <Twitter size={20} />,
-		href: "https://twitter.com/elonmusk",
-		label: "Twitter",
-		handle: "@elonmusk",
+		href: "https://x.com/doloriter",
+		label: "X",
+		handle: "@doloriter",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:hashbashsupport@protonmail.com",
+		href: "mailto:ardahurbas@gmail.com",
 		label: "Email",
-		handle: "hashbashsupport@protonmail.com",
+		handle: "ardahurbas@gmail.com",
 	},
 	{
 		icon: <Github size={20} />,
 		href: "https://github.com/ardahash",
-		label: "Github",
+		label: "Public Github",
 		handle: "ardahash",
 	},
 ];
